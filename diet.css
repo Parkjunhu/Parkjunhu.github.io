@@ -1,0 +1,49 @@
+.diet_manage {
+  width : 70%;
+  border : 1px solid black;
+  text-align: center;
+  margin : 0 auto;
+  margin-top : 110px;
+  margin-bottom: 50px;
+}
+
+.diet_manage th {
+  border : 1px solid black;
+  padding : 5px;
+}
+
+.diet_manage td {
+  border : 1px solid black;
+  padding : 20px;
+}
+
+.diet_table {
+  position: absolute;
+  top : 8%;
+  left : 50%;
+  transform: translate(-50%, -50%);
+  font-size : 30px;
+  font-weight: 700;
+  color : green;
+}
+
+.diet_day {
+  font-weight: 700;
+}
+
+.diet_point {
+  background-color: lightgray;
+}
+
+.today-menu {
+  background-color: green;
+  color : white;
+  font-size : 20px;
+  border : 0;
+  width : 200px;
+  padding : 10px;
+  position : absolute;
+  right : 15%;
+  cursor: pointer;
+  /* transform: translate(-50%); */
+}
